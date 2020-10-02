@@ -1,4 +1,7 @@
 <?php include "inc/header.php"; ?>
+<?php include "lib/User.php";
+    $user = new User();
+?>
 
         <nav class="navbar navbar-default">
             <div class="container-fluid">
