@@ -1,20 +1,32 @@
 <?php include "inc/header.php"; ?>
 
+<?php
+    include 'lib/User.php';
+    $user = new User();
+    if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])){
+        $userRegi = $user->userRegistration($_POST);
+    }
+?>
 
-    <div class="panel panel-default" style="margin-top: 50px;">
+    <div class="panel panel-default" >
+        <?php
+            if (isset($userRegi)){
+                echo $userRegi;
+            }
+        ?>
         <div class="panel-heading">
             <h4>User Registration System</h4>
         </div>
         <div class="panel-body">
             <div style="width: 600px; margin: auto;">
-                <form action="">
+                <form action="register.php" method="POST">
                     <div class="form-group">
                         <label for="name">Your Name</label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter name address" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter name " aria-describedby="basic-addon1">
                     </div>
                     <div class="form-group">
                         <label id="username">Your username</label>
-                        <input type="email" class="form-control" name="username" placeholder="Enter username address" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" name="username" placeholder="Enter username " aria-describedby="basic-addon1">
                     </div>
                     <div class="form-group">
                         <label id="email">Email</label>

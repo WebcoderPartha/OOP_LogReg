@@ -6,7 +6,7 @@ class Database
     private $dbuser = 'root';
     private $dbpass = '';
     private $dbname = 'ooplogreg';
-    public $pdo;
+    public  $pdo;
 
     public function __construct(){
 
@@ -20,7 +20,6 @@ class Database
                 die("Failed to connection with Database".$exception->getMessage());
             }
         }
-
     }
 
 }

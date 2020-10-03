@@ -1,13 +1,24 @@
-<?php include "inc/header.php"; ?>
+<?php
+    include "inc/header.php";
+    include "lib/User.php";
+    Session::checkLogin();
+    $user = new User();
+    if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])){
+        $userLogin = $user->userLogin($_POST);
+    }
+?>
 
 
-    <div class="panel panel-default" style="margin-top: 50px;">
+    <div class="panel panel-default">
         <div class="panel-heading">
             <h4>Login System</h4>
         </div>
         <div class="panel-body">
             <div style="width: 600px; margin: auto;">
-                <form action="">
+                <?php if (isset($userLogin)){
+                    echo $userLogin;
+                } ?>
+                <form action="" method="POST">
                     <div class="form-group">
                         <label id="email">Email</label>
                         <input type="email" class="form-control" name="email" placeholder="Enter email address" aria-describedby="basic-addon1">

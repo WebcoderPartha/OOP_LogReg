@@ -1,21 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="49d9bd88-6b6d-4ab5-838c-3f5d2bde7608" name="Default Changelist" comment="" />
+    <list default="true" id="49d9bd88-6b6d-4ab5-838c-3f5d2bde7608" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="blade" />
+        <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iJWTYnp0SqlSLSqzfoZqpO6PFV" />
   <component name="ProjectViewState">
@@ -25,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/New BD Help" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,25 +75,55 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601626184067</updated>
-      <workItem from="1601626185096" duration="5701000" />
+      <workItem from="1601626185096" duration="12958000" />
+      <workItem from="1601642175518" duration="2729000" />
+      <workItem from="1601645634111" duration="15556000" />
+      <workItem from="1601689856467" duration="1893000" />
+      <workItem from="1601703755103" duration="79000" />
+      <workItem from="1601704185423" duration="9000" />
+      <workItem from="1601704319271" duration="112000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601704430730">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601704430730" />
     <state x="1063" y="144" key="NewPhpClassDialog" timestamp="1601626596118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1063" y="144" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1601626596118" />
-    <state x="1082" y="345" key="NewPhpFileDialog" timestamp="1601629015058">
+    <state x="1082" y="345" key="NewPhpFileDialog" timestamp="1601687054117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="1082" y="345" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1601629015058" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601631292310">
+    <state x="1082" y="345" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1601687054117" />
+    <state x="979" y="118" key="RollbackChangesDialog" timestamp="1601645561852">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601631292310" />
+    <state x="979" y="118" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601645561852" />
+    <state x="740" y="230" key="run.anything.popup" timestamp="1601657673051">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="740" y="230" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601657673051" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601690101935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601690101935" />
   </component>
 </project>
